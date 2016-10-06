@@ -8,40 +8,41 @@ if (x > y) {
 
 return x}
 else {
-
-if (y> x)
 return y
 }
 }
 
-
+//TERNARY CONDITIONALS----do them if they only require one line.
+function {ternaryMax} (x,y) {
+    return x > y ? x : y;
+}
 
 // ---------------------
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 // ---------------------
 
 function maxOfThree(x, y, z) {
- if (x > y && z;) {
- return x
- } else {
- if ( y > x && z); {
+ if (x >= y && z) {
+ return x;
+ }
+ if ( y >= x && z) {
  return y;
  }
  else {return z;
  }
 
-}
+};
 
 // ---------------------
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 
 
 function isVowel(char) {
-  if (char ==="A" || char==="a" || char==="E" || char==="e" || char==="I" || char==="i" || char==="O" || char==="o" || char==="U" || char==="u" ); {
-  return true;
+  if (char ==="A" || char==="a" || char==="E" || char==="e" || char==="I" || char==="i" || char==="O" || char==="o" || char==="U" || char==="u" ) {
+  return true
   }
   else {
-  return false;
+      return false
   }
 }
 

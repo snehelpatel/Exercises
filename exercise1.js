@@ -44,9 +44,13 @@ return (x + y + z)/3;
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
 
-function getLength = () {
+function getLength = (string) {
 
-var x = 0;
+var count = 0;
+while (string[count]) !== undefined) {
+ count += 1;
+}
+return count; 
 
 
 
