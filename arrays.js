@@ -53,6 +53,12 @@ numbers. filter (even);
 // 4. Find odd numbers
 // ---------------------------
 
+var numbers = [1,12,4,18,9,7,11,3,101,5,6];
+
+function odd (num) {
+  return num % 2 !== 0
+};
+numbers. filter (odd);
 
 // ---------------------------
 // 5. Find words that contain `is`
@@ -60,14 +66,39 @@ numbers. filter (even);
 
 
 
+function findThis (word) {
+var strings = ['this','is','a','collection','of','words'];
+
+if strings.every ('is') {
+  return word
+};
+};
+
+
 // ---------------------------
-// 5. Join Both Arrays Together
+// 6. Join Both Arrays Together
 // ---------------------------
+var numbers = [1,12,4,18,9,7,11,3,101,5,6];
+var strings = ['this','is','a','collection','of','words'];
+
+
+numbers.join (',')
+
+strings.join (',')
+
+
+
+
+
+
+// function combo. (x, y){
+//   return combo.join (('numbers, strings')
+// };
 
 
 
 
 // ---------------------------
-// 6. Use the Instructors array and find all that teach JavaScript,
+// 7. Use the Instructors array and find all that teach JavaScript,
 //    then sort them alphabetically
 // ---------------------------
