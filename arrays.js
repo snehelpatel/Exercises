@@ -23,7 +23,7 @@ var instructors = [
 var numbers = [1,12,4,18,9,7,11,3,101,5,6];
 
 numbers.sort (function largestNumber (x, y) {
-  return (y-x)}) [0];
+  return (x-y)}) [10];
 
 
 // ---------------------------
@@ -69,7 +69,7 @@ numbers. filter (odd);
 function findThis (word) {
 var strings = ['this','is','a','collection','of','words'];
 
-if strings.every ('is') {
+if strings.includes ('is') {
   return word
 };
 };
@@ -82,12 +82,12 @@ var numbers = [1,12,4,18,9,7,11,3,101,5,6];
 var strings = ['this','is','a','collection','of','words'];
 
 
-numbers.join (',')
-
-strings.join (',')
-
-
-
+// numbers.join ()
+//
+//
+// var newBigString = [];
+// for ( var = 0 )
+//
 
 
 
@@ -102,3 +102,21 @@ strings.join (',')
 // 7. Use the Instructors array and find all that teach JavaScript,
 //    then sort them alphabetically
 // ---------------------------
+
+var instructors = [
+    { firstname : 'JD', teaches : 'JavaScript'},
+    { firstname : 'Tim', teaches : 'JavaScript'},
+    { firstname : 'Brit', teaches : 'Ruby'},
+    { firstname : 'Joe', teaches : 'iOS'},
+    { firstname : 'Jake', teaches : 'JavaScript'},
+    { firstname : 'Will', teaches : 'JavaScript'},
+    { firstname : 'Calvin', teaches : 'JavaScript'},
+    { firstname : 'James', teaches : 'Ruby'}
+];
+
+firstname.sort (function alphaTeach (a,b) {
+
+  {return (a - b)
+
+  })
+};
